@@ -112,6 +112,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &42864841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42864843}
+  - component: {fileID: 42864842}
+  m_Layer: 0
+  m_Name: '[InstanciarAzar]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &42864842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42864841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c05e550f0b3dd4b913c90984f868ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjetosInstanciar: []
+--- !u!4 &42864843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42864841}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.272802, y: -0.48505497, z: 18.726078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &86514349
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +458,50 @@ Transform:
   - {fileID: 1107075297}
   m_Father: {fileID: 1107075273}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &429766853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 429766855}
+  - component: {fileID: 429766854}
+  m_Layer: 0
+  m_Name: '[NumerosAzar]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &429766854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429766853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2c459178729204aa32edc875e05bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RandomNumber: 0
+--- !u!4 &429766855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429766853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.272802, y: -0.48505497, z: 18.726078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650501160
 GameObject:
@@ -7249,7 +7337,7 @@ GameObject:
   - component: {fileID: 1104782151}
   m_Layer: 0
   m_Name: Silla.026
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7267,7 +7355,7 @@ GameObject:
   - component: {fileID: 1104782145}
   m_Layer: 0
   m_Name: Silla.027
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7285,7 +7373,7 @@ GameObject:
   - component: {fileID: 1104782203}
   m_Layer: 0
   m_Name: Silla.024
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7303,7 +7391,7 @@ GameObject:
   - component: {fileID: 1104782149}
   m_Layer: 0
   m_Name: Silla.025
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7321,7 +7409,7 @@ GameObject:
   - component: {fileID: 1104782159}
   m_Layer: 0
   m_Name: Silla.030
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7339,7 +7427,7 @@ GameObject:
   - component: {fileID: 1104782153}
   m_Layer: 0
   m_Name: Silla.031
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7357,7 +7445,7 @@ GameObject:
   - component: {fileID: 1104782147}
   m_Layer: 0
   m_Name: Silla.028
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7375,7 +7463,7 @@ GameObject:
   - component: {fileID: 1104782157}
   m_Layer: 0
   m_Name: Silla.029
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7393,7 +7481,7 @@ GameObject:
   - component: {fileID: 1104782167}
   m_Layer: 0
   m_Name: Silla.034
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7411,7 +7499,7 @@ GameObject:
   - component: {fileID: 1104782161}
   m_Layer: 0
   m_Name: Silla.035
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7429,7 +7517,7 @@ GameObject:
   - component: {fileID: 1104782155}
   m_Layer: 0
   m_Name: Silla.032
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7447,7 +7535,7 @@ GameObject:
   - component: {fileID: 1104782165}
   m_Layer: 0
   m_Name: Silla.033
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7501,7 +7589,7 @@ GameObject:
   - component: {fileID: 1104782163}
   m_Layer: 0
   m_Name: Silla.036
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7681,7 +7769,7 @@ GameObject:
   - component: {fileID: 1104782199}
   m_Layer: 0
   m_Name: Silla.018
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7699,7 +7787,7 @@ GameObject:
   - component: {fileID: 1104782193}
   m_Layer: 0
   m_Name: Silla.019
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7753,7 +7841,7 @@ GameObject:
   - component: {fileID: 1104782207}
   m_Layer: 0
   m_Name: Silla.022
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7771,7 +7859,7 @@ GameObject:
   - component: {fileID: 1104782201}
   m_Layer: 0
   m_Name: Silla.023
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7789,7 +7877,7 @@ GameObject:
   - component: {fileID: 1104782195}
   m_Layer: 0
   m_Name: Silla.020
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7807,7 +7895,7 @@ GameObject:
   - component: {fileID: 1104782205}
   m_Layer: 0
   m_Name: Silla.021
-  m_TagString: Untagged
+  m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10803,7 +10891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1541210866
 Transform:
   m_ObjectHideFlags: 0
@@ -10895,6 +10983,50 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1681966198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1681966200}
+  - component: {fileID: 1681966199}
+  m_Layer: 0
+  m_Name: '[ManipularObjetos]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1681966199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681966198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd76129ed6b4a4bb180c411849e355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sillas: []
+--- !u!4 &1681966200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681966198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.272802, y: -0.48505497, z: 18.726078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827985932
 GameObject:
   m_ObjectHideFlags: 0
